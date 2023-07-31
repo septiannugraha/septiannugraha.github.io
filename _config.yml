@@ -3,3 +3,10 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Snoogz Productions
 description: My personal website as well as portfolio to showcase my current and past projects.
+asset_pipeline:
+  tailwind:
+    output: 
+      - main.css
+postcss:
+  purgecss:
+    content: ['_site/**/*.html']
