@@ -33,6 +33,7 @@
           <a href="https://www.linkedin.com/in/septian-adi-nugraha/">LinkedIn</a><br>
         </nav>
         
+        {% unless page.layout == 'post' %}
         <div class="recent-posts">
           <h3 style="font-size: 1.1rem; margin-bottom: 1rem;">Recent Posts</h3>
           {% for post in site.posts limit:3 %}
@@ -42,6 +43,7 @@
           </div>
           {% endfor %}
         </div>
+        {% endunless %}
       </header>
       <section>
 
