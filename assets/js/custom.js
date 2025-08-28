@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Console Easter egg
-  console.log('%c Welcome to my portfolio! 🚀', 'font-size: 20px; color: #00d4ff; font-weight: bold;');
-  console.log('%c Looking for someone who can turn your Excel chaos into scalable systems?', 'font-size: 14px; color: #7b61ff;');
-  console.log('%c Let\'s connect: https://github.com/septiannugraha', 'font-size: 12px; color: #e4e8f7;');
+  console.log('%c Welcome to my portfolio! 🚀', 'font-size: 20px; color: #00b4d8; font-weight: bold;');
+  console.log('%c Looking for someone who can turn your Excel chaos into scalable systems?', 'font-size: 14px; color: #00d4aa;');
+  console.log('%c Let\'s connect: https://github.com/septiannugraha', 'font-size: 12px; color: #e8f4f8;');
 });

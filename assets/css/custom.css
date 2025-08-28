@@ -1,16 +1,16 @@
 /* Professional Portfolio Styles - Dark Theme with Accent Colors */
 
 :root {
-  /* Color Palette */
-  --primary-bg: #0a0e27;
-  --secondary-bg: #1a1f3a;
-  --card-bg: #151932;
-  --accent: #00d4ff;
-  --accent-secondary: #7b61ff;
-  --text-primary: #e4e8f7;
-  --text-secondary: #9ca3af;
-  --text-muted: #6b7280;
-  --border-color: #2a3251;
+  /* Color Palette - Clean Blue/Teal Theme */
+  --primary-bg: #0f1419;
+  --secondary-bg: #1a2332;
+  --card-bg: #1e2936;
+  --accent: #00b4d8;
+  --accent-secondary: #00d4aa;
+  --text-primary: #e8f4f8;
+  --text-secondary: #a8c5d6;
+  --text-muted: #7a95a8;
+  --border-color: #2a3f4e;
   --success: #10b981;
   --warning: #f59e0b;
   --danger: #ef4444;
@@ -40,7 +40,7 @@ html {
 
 body {
   font-family: var(--font-sans);
-  background: linear-gradient(135deg, var(--primary-bg) 0%, var(--secondary-bg) 100%);
+  background: linear-gradient(135deg, #0f1419 0%, #1a2838 50%, #0f2027 100%);
   color: var(--text-primary);
   line-height: 1.6;
   min-height: 100vh;
@@ -57,8 +57,8 @@ body::before {
   width: 100%;
   height: 100%;
   background-image: 
-    linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px);
+    linear-gradient(rgba(0, 180, 216, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 180, 216, 0.03) 1px, transparent 1px);
   background-size: 50px 50px;
   z-index: -1;
   animation: grid-move 20s linear infinite;
@@ -275,7 +275,7 @@ pre code {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(0, 212, 255, 0.1), transparent);
+  background: linear-gradient(90deg, transparent, rgba(0, 180, 216, 0.1), transparent);
   transition: left 0.5s ease;
 }
 
@@ -285,7 +285,7 @@ pre code {
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 40px rgba(0, 212, 255, 0.2);
+  box-shadow: 0 12px 40px rgba(0, 180, 216, 0.2);
   border-color: var(--accent);
 }
 
@@ -298,15 +298,15 @@ pre code {
   font-weight: 600;
   margin-right: var(--spacing-xs);
   margin-bottom: var(--spacing-xs);
-  background: rgba(123, 97, 255, 0.1);
+  background: rgba(0, 212, 170, 0.1);
   color: var(--accent-secondary);
-  border: 1px solid rgba(123, 97, 255, 0.3);
+  border: 1px solid rgba(0, 212, 170, 0.3);
 }
 
 .badge-tech {
-  background: rgba(0, 212, 255, 0.1);
+  background: rgba(0, 180, 216, 0.1);
   color: var(--accent);
-  border-color: rgba(0, 212, 255, 0.3);
+  border-color: rgba(0, 180, 216, 0.3);
 }
 
 /* Buttons */
@@ -318,14 +318,14 @@ pre code {
   border-radius: 8px;
   font-weight: 600;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 180, 216, 0.3);
   border: none;
   cursor: pointer;
 }
 
 .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 25px rgba(0, 212, 255, 0.5);
+  box-shadow: 0 6px 25px rgba(0, 180, 216, 0.5);
 }
 
 .btn-secondary {
@@ -336,8 +336,8 @@ pre code {
 }
 
 .btn-secondary:hover {
-  background: rgba(0, 212, 255, 0.1);
-  box-shadow: 0 4px 15px rgba(0, 212, 255, 0.2);
+  background: rgba(0, 180, 216, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 180, 216, 0.2);
 }
 
 /* Lists */
@@ -363,7 +363,7 @@ blockquote {
   margin: var(--spacing-md) 0;
   color: var(--text-secondary);
   font-style: italic;
-  background: rgba(0, 212, 255, 0.05);
+  background: rgba(0, 180, 216, 0.05);
   padding: var(--spacing-md);
   border-radius: 8px;
 }
@@ -388,7 +388,7 @@ th {
 }
 
 tr:hover {
-  background: rgba(0, 212, 255, 0.05);
+  background: rgba(0, 180, 216, 0.05);
 }
 
 /* HR */
@@ -455,7 +455,7 @@ section > * {
 
 /* Selection */
 ::selection {
-  background: rgba(0, 212, 255, 0.3);
+  background: rgba(0, 180, 216, 0.3);
   color: var(--text-primary);
 }
 
